@@ -95,21 +95,12 @@ export const services = [
 
 export const projects = [
   {
-    title: "Mt. Elgon Academy - School Website & Admissions Portal",
+    title: "Mt. Elgon Academy - School Website",
     category: "Web",
-    featured: true,
-    tags: ["React", "Vite", "TypeScript", "Supabase", "Admissions Portal", "CBC Curriculum"],
-    text: "Official website and digital admissions portal for Mt. Elgon Academy Primary School in Kitale, Trans Nzoia County, Kenya. Features a comprehensive online admissions workflow, CBC curriculum guide, school bus transit scheduler, notice circulars, and a Supabase-backed administrative CMS.",
+    tags: ["React", "Vite", "TypeScript", "Supabase", "Admissions Portal"],
+    text: "A modern school website and admissions portal featuring an online enrollment workflow (#admissions), CBC curriculum guide, bus transport scheduler, and a Supabase-backed admin CMS.",
     github: "https://github.com/benon021/schoolmanagementsystem",
     live: "https://school-website-six-sable.vercel.app/#admissions",
-    admissionsUrl: "https://school-website-six-sable.vercel.app/#admissions",
-    highlights: [
-      "Online Student Admissions (#admissions): Multi-step application submission, entry grade selection (Playgroup to Grade 8), boarding vs. day scholar options, and required document checklist.",
-      "Competency-Based Curriculum (CBC): Core learning pathways across Early Years (PP1–PP2), Primary (Grades 1–6), and Junior Secondary (Grades 7–9).",
-      "School Bus Route Logistics: 4 daily corridors covering Kitale Town, Milimani, Saboti, Kiminini, and Endebess with stop-by-stop timings and seat reservation requests.",
-      "Boarding & Pastoral Care: Dormitory life overview, wholesome nutrition schedules, round-the-clock infirmary care, and structured routines.",
-      "Supabase Cloud CMS: Custom admin dashboard for real-time circular announcements, school info editing, and media bucket storage.",
-    ],
   },
   {
     title: "MMax.Stream",
