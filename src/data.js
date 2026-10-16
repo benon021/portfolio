@@ -101,6 +101,7 @@ export const projects = [
     text: "A modern school website and admissions portal featuring an online enrollment workflow (#admissions), CBC curriculum guide, bus transport scheduler, and a Supabase-backed admin CMS.",
     github: "https://github.com/benon021/schoolmanagementsystem",
     live: "https://school-website-six-sable.vercel.app/#admissions",
+    landingUrl: "https://school-website-six-sable.vercel.app/",
   },
   {
     title: "MMax.Stream",
@@ -109,6 +110,7 @@ export const projects = [
     text: "A movie discovery interface inspired by streaming platforms: hero banner, categorized movie rows, detail modals and API-driven data. Built as a responsive, component-based app with PWA capabilities.",
     github: "https://github.com/benon021/mmax.stream",
     live: "https://mmax-stream.vercel.app/#/movies",
+    landingUrl: "https://mmax-stream.vercel.app/",
   },
   {
     title: "Lumiaxy AI",
@@ -116,7 +118,6 @@ export const projects = [
     tags: ["Next.js", "TypeScript", "Prisma", "Supabase"],
     text: "A study platform for students and teachers: role-based accounts, assignments with documents, text and video links, teacher following, enrollment, notifications, and an AI study coach concept.",
     github: "https://github.com/benon021/lumiaxy.study",
-    live: "https://lumiaxy.study",
   },
   {
     title: "Pharmacy Management System and POS",
