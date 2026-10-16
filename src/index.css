@@ -32,7 +32,7 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   background: var(--panel); border-right: 1px solid var(--line);
   display: flex; flex-direction: column; padding: 48px 0; z-index: 30;
 }
-.sidebar-logo { padding: 0 0 0 64px; margin-bottom: 120px; }
+.sidebar-logo { padding: 0 0 0 44px; margin-bottom: 110px; }
 .sidebar nav { padding-left: 76px; }
 .sidebar li { margin-bottom: 0; }
 .nav-link {
@@ -43,12 +43,20 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
 .nav-link svg { width: 16px; flex: none; }
 .nav-link:hover, .nav-link.active { color: var(--accent); }
 
-.logo { position: relative; display: inline-block; padding: 10px 14px; line-height: 1; }
-.logo::before, .logo::after { content: ""; position: absolute; width: 22px; height: 22px; border: 0 solid var(--accent); }
-.logo::before { top: -8px; right: -14px; border-top-width: 4px; border-right-width: 4px; }
-.logo::after { bottom: -8px; left: -2px; border-bottom-width: 4px; border-left-width: 4px; }
-.logo-script { font-family: "Yellowtail", cursive; font-size: 2.2rem; letter-spacing: 1px; }
-.logo-sub { font-weight: 600; letter-spacing: 6px; font-size: 1.1rem; margin-left: 6px; }
+.logo-wrap { display: inline-flex; align-items: center; gap: 12px; color: var(--accent); text-decoration: none; }
+.logo-icon-badge {
+  display: flex; align-items: center; justify-content: center;
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+.logo-wrap:hover .logo-icon-badge { transform: scale(1.08) rotate(-4deg); }
+
+.logo { position: relative; display: inline-block; padding: 6px 12px; line-height: 1; }
+.logo::before, .logo::after { content: ""; position: absolute; width: 18px; height: 18px; border: 0 solid var(--accent); }
+.logo::before { top: -6px; right: -10px; border-top-width: 3px; border-right-width: 3px; }
+.logo::after { bottom: -6px; left: -2px; border-bottom-width: 3px; border-left-width: 3px; }
+.logo-script { font-family: "Yellowtail", cursive; font-size: 2.1rem; letter-spacing: 1px; color: var(--text); }
+.logo-sub { font-weight: 600; letter-spacing: 5px; font-size: 1.05rem; margin-left: 6px; color: var(--accent); }
 
 .topbar { display: none; }
 .scrim { display: none; }
