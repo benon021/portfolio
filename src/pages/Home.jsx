@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import Typing from "../components/Typing.jsx";
 import PhotoFrame from "../components/PhotoFrame.jsx";
-import BracketName from "../components/BracketName.jsx";
 import { profile } from "../data.js";
 
 export default function Home() {
@@ -9,7 +8,7 @@ export default function Home() {
     <section className="page home">
       <div className="home-text">
         <h1 className="hello">
-          Hello, my name is <BracketName name={profile.name} className="script" />
+          Hello, my name is <span className="script">{profile.name}</span>
         </h1>
         <h2 className="role">
           I'm a <Typing words={profile.roles} />
